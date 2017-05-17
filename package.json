@@ -1,6 +1,6 @@
 {
   "name": "file-button-react",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "scripts": {
     "start": "npm run bsync",
     "appstack": "appstack",
@@ -23,7 +23,8 @@
   "dependencies": {
     "inherits": "^2.0.3",
     "prop-types": "^15.5.10",
-    "react": "^15.5.4"
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "appstackr": "^0.3.17",
@@ -38,7 +39,6 @@
     "react-addons-shallow-compare": "benpptung/react-addons-shallow-compare",
     "react-addons-transition-group": "benpptung/react-addons-transition-group",
     "react-addons-update": "benpptung/react-addons-update",
-    "react-dom": "^15.5.4",
     "react-tap-event-plugin": "^2.0.1",
     "transforms": "^0.1.2"
   },
