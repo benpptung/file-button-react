@@ -5,7 +5,8 @@ module.exports = [
     files: [
       'site/react.js',
       'site/react-dom.js',
-      'prop-types'
+      'prop-types',
+      'core-js/modules/es6.object.assign.js'
     ],
     browserify: {
       // Cannot use `*` here, because `*` automatically expose npm module name.
