@@ -23,7 +23,7 @@ if (mountnode) {
   
   ReactDOM.render(
     <MuiThemeProvider>
-      <FileButton label="upload" primary=true onFileInput={upload} />
+      <FileButton label="upload" primary={true} onFileInput={upload} />
       <RaisedButton label="catch me" secondary={true} style={wrap.styl} />
       <RaisedButton label="catch me too" secondary={true} style={wrap.styl} />
     </MuiThemeProvider>,
