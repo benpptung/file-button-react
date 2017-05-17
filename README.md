@@ -58,7 +58,7 @@ function upload(fileinput) {
 
 # API
 
-###wrap(ReactComponent, options)
+## wrap(ReactComponent, options)
 
 This function returns a ReactComponet with two additional properties 
 
@@ -71,7 +71,7 @@ defaults to `0`.
 `file-button-react` injects DOM element `<input type="file" />` to React component, which we cannot control. This is useful if we want to re-use third-party component, although it is discouraged. So, sometimes it may fail depends on the component. In that case, we can increase `depth` value to append `<input type="file" />` to child node's child node...
 
 
-### properties
+## properties
 
 All properties are sent to the wrapped component except `onFileInput`.
 
@@ -84,6 +84,6 @@ recieve `<input type="file" />`
 default to `false`
 The wrapped component will recieve this prop, so it can re-style itself as `disabled`.
 
-###wrap.styl: {position:'relative', overflow:'hidden'}
+## wrap.styl: {position:'relative', overflow:'hidden'}
 
 A React style object, which is the style applied to the root DOM. If layout got problem after using this component, can try to apply this style to other buttons like this example.
