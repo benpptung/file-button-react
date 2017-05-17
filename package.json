@@ -2,9 +2,19 @@
   "name": "file-button-react",
   "version": "0.1.0",
   "scripts": {
+    "start": "npm run appstack && npm run bsync",
     "appstack": "appstack",
     "bsync": "appwatch -b"
   },
+  "keywords": [
+    "input",
+    "file-input",
+    "button",
+    "file",
+    "upload",
+    "react",
+    "react-component",
+    "component"],
   "dependencies": {
     "inherits": "^2.0.3",
     "prop-types": "^15.5.10",

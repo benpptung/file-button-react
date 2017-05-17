@@ -19,12 +19,14 @@ if (mountnode) {
 
   let FileButton = wrapper(RaisedButton, opt);
 
+  let styl = Object.assign(wrapper.styl, {marginRight: '5px'});
+
   ReactDOM.render(
     <MuiThemeProvider>
       <div>
-        <FileButton label="click me" primary={true} disabled={true} onFileInput={onFileInput} />
-        <RaisedButton label="catch me" secondary={true} style={wrapper.styl} />
-        <RaisedButton label="catch me too" secondary={true} style={wrapper.styl} />
+        <FileButton label="click me" primary={true} onFileInput={onFileInput} style={styl} />
+        <RaisedButton label="catch me" secondary={true} style={styl} />
+        <RaisedButton label="catch me too" secondary={true} style={styl} />
       </div>
     </MuiThemeProvider>,
     mountnode);
