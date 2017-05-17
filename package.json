@@ -1,11 +1,16 @@
 {
   "name": "file-button-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
-    "start": "npm run appstack && npm run bsync",
+    "start": "npm run bsync",
     "appstack": "appstack",
     "bsync": "appwatch -b"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benpptung/file-button-react"
+  },
+  "main": "index.js",
   "keywords": [
     "input",
     "file-input",
