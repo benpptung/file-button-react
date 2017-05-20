@@ -1,30 +1,22 @@
 {
   "name": "file-button-react",
+  "description": "Another implementation of node module file-button. For reusing component as a file input button.",
   "version": "0.1.3",
-  "scripts": {
-    "start": "npm run bsync",
-    "appstack": "appstack",
-    "bsync": "appwatch -b"
+  "author": "Ben P.P. Tung",
+  "browserify": {
+    "transform": [
+      "transforms"
+    ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/benpptung/file-button-react"
+  "bugs": {
+    "url": "https://github.com/benpptung/file-button-react/issues"
   },
-  "main": "index.js",
-  "keywords": [
-    "input",
-    "file-input",
-    "button",
-    "file",
-    "upload",
-    "react",
-    "react-component",
-    "component"],
   "dependencies": {
     "inherits": "^2.0.3",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "transforms": "^0.1.2"
   },
   "devDependencies": {
     "appstackr": "^0.3.17",
@@ -42,9 +34,26 @@
     "react-tap-event-plugin": "^2.0.1",
     "transforms": "^0.1.2"
   },
-  "browserify": {
-    "transform": [
-      "transforms"
-    ]
+  "homepage": "https://github.com/benpptung/file-button-react#readme",
+  "keywords": [
+    "button",
+    "component",
+    "file",
+    "file-input",
+    "input",
+    "react",
+    "react-component",
+    "upload"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benpptung/file-button-react"
+  },
+  "scripts": {
+    "appstack": "appstack",
+    "bsync": "appwatch -b",
+    "start": "npm run bsync"
   }
 }
