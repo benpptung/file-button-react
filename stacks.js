@@ -38,7 +38,7 @@ module.exports = [
       'material-ui/RaisedButton'
     ],
     browserify: {
-      exposes: '*' , externals: ['react', 'react-dom', 'prop-types']
+      exposes: '*', externals: ['react', 'react-dom', 'prop-types']
     }
   },
   {
@@ -56,4 +56,4 @@ module.exports = [
       ]
     }
   }
-];
+]
