@@ -14,11 +14,10 @@
   "dependencies": {
     "inherits": "^2.0.3",
     "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
     "transforms": "^0.1.2"
   },
   "devDependencies": {
+    "react-dom": "^15.3.0 || ^16.0.0",
     "appstackr": "^0.3.17",
     "caniuse-api": "^1.5.2",
     "core-js": "^2.4.1",
@@ -28,16 +27,10 @@
     "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-react": "^7.4.0",
     "material-ui": "^0.18.1",
-    "react-addons-clone-with-props": "benpptung/react-addons-clone-with-props",
-    "react-addons-create-fragment": "benpptung/react-addons-create-fragment",
-    "react-addons-css-transition-group": "benpptung/react-addons-css-transition-group",
-    "react-addons-linked-state-mixin": "benpptung/react-addons-linked-state-mixin",
-    "react-addons-pure-render-mixin": "benpptung/react-addons-pure-render-mixin",
-    "react-addons-shallow-compare": "benpptung/react-addons-shallow-compare",
-    "react-addons-transition-group": "benpptung/react-addons-transition-group",
-    "react-addons-update": "benpptung/react-addons-update",
-    "react-tap-event-plugin": "^2.0.1",
     "transforms": "^0.1.2"
+  },
+  "peerDependencies": {
+    "react": "^15.3.0 || ^16.0.0"
   },
   "homepage": "https://github.com/benpptung/file-button-react#readme",
   "keywords": [
